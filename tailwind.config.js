@@ -12,7 +12,12 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        'primary-orange': '#FF5722',
+        'primary-purple': '#4c2a7c',
+        'light-purple': '#6c4f99',
+        'secondary-orange': '#ff9e30',
+        'light-orange': '#ffbf5a',
+        background: '#F5F5F5',
+        'light-gray-text': '#A0A0A0',
       },
     },
   },
