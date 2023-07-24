@@ -7,6 +7,25 @@
 /* 
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
+@font-face {
+  font-family: "Modern_Age";
+  src: url("/fonts/Modern Age.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-modern {
+  font-family: "Modern_Age", sans-serif;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+h1{
+  font-family: "Modern_Age", sans-serif;
+}
 
 .main {
   width: 100vw;
@@ -16,6 +35,7 @@
   justify-content: center;
   padding: 0px 0px 160px 0px;
   pointer-events: none;
+  z-index: 1;
 }
 
 .main:before {
@@ -38,6 +58,80 @@
   top: 0;
   opacity: 0.4;
   filter: invert(1);
+}
+
+/* Parralax Effects */
+.mountain1 {
+  background-image: url('/Assets/SM website developmentAsset 14@4x-8.png');
+  bottom: 0%;
+  left: -5%;
+  background-size: contain; 
+  background-position: bottom;
+  height: 18rem;
+  width: 18rem;
+  z-index: 1;
+}
+
+.mountain2 {
+  background-image: url('/Assets/BN christchurch websitesAsset 13@4x-8.png');
+  bottom: 0%;
+  left: -25%;
+  background-size: contain; 
+  background-position: bottom;
+  height: 50rem;
+  width: 50rem;
+  z-index: 0;
+}
+
+.mountain3 {
+  background-image: url('/Assets/SM websitesAsset 12@4x-8.png');
+  bottom: 0%;
+  left: 25%;
+  background-size: contain; 
+  background-position: bottom;
+  height: 8rem;
+  width: 8rem;
+}
+
+.cloud1 {
+  background-image: url('/Assets/CloudAsset 10@4x-8.png');
+  bottom: 30%;
+  right: 10%;
+  background-size: contain; 
+  background-position: bottom;
+  height: 6rem;
+  width: 6rem;
+}
+
+.cloud2 {
+  background-image: url('/Assets/CloudAsset 10@4x-8.png');
+  bottom: 20%;
+  right: 20%;
+  background-size: contain; 
+  background-position: bottom;
+  height: 6rem;
+  width: 6rem;
+}
+
+.developer {
+  background-image: url('/Assets/CloudAsset 11@4x-8.png');
+  bottom: -7%;
+  right: 0;
+  background-size: contain; 
+  background-position: bottom;
+  height: 15rem;
+  width: 15rem;
+  z-index: 0;
+}
+
+.cloud3 {
+  background-image: url('/Assets/CloudAsset 10@4x-8.png');
+  bottom: 75%;
+  right: 10%;
+  background-size: contain; 
+  background-position: bottom;
+  height: 6rem;
+  width: 6rem;
 }
 
 .gradient {
@@ -86,7 +180,7 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
+  @apply mt-5 text-5xl leading-[1.15] sm:text-6xl ;
 }
 
 .orange_gradient {
@@ -101,6 +195,10 @@
   @apply bg-gradient-to-r from-purple-800 to-purple-900;
 }
 
+.gradient-blue-shadow {
+  @apply bg-gradient-to-t from-white to-violet-950;
+}
+
 .background_gradient {
   @apply bg-gradient-to-t from-amber-500 to-purple-800;
 }
@@ -110,7 +208,7 @@
 }
 
 .blue_gradient {
-  @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-blue-600 to-cyan-600;
 }
 
 .desc {

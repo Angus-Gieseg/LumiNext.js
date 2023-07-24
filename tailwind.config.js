@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        modern: ['Modern_Age', 'sans-serif'],
       },
       colors: {
         'primary-purple': '#4c2a7c',

@@ -14,16 +14,19 @@ export const Navbar = () => {
   // }
   return (
     // Add a radius around the bottom corners, and a shadow
-    <nav className="bg-white rounded-b-lg shadow-md flex-between w-full mb-8 p-3 fixed top-0 left-0 right-0 z-20">
-      <Link href="/" className="flex gap-2 flex-center">
+    <nav className="shadow-lg flex-between w-full mb-8 pr-3 fixed top-0 left-0 right-0 z-20 bg-purple-950">
+      <Link href="/" className="flex flex-center">
         <Image
-          src="/Assets/NBW Logo ReversedAsset 21.png"
-          width={75}
-          height={75}
+          src="/Assets/Not Bad Websites Logo OrangeAsset 23@4x-8.png"
+          width={250}
+          height={250}
           alt="Not Bad Websites Logo"
         />
       </Link>
-      {/* <button onClick={() => scrollToSection('section1')}>Section 1</button> */}
+      <div className="flex gap-4 flex-center">
+        <button onClick={() => scrollToSection('section1')}>Section 1</button>
+        <button onClick={() => scrollToSection('section1')}>Section 1</button>
+      </div>
     </nav>
   )
 }
