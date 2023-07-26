@@ -7,6 +7,7 @@ const Introduction = () => {
       className="pt-20 pb-20 px-4 sm:px-0 flex flex-col 
       sm:flex-row justify-between items-center space-y-10 sm:space-y-0 
       sm:space-x-10 ml-8"
+      id="about"
     >
       <div className="sm:w-1/2">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-8">

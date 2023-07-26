@@ -195,6 +195,7 @@ h1{
   @apply bg-gradient-to-r from-purple-800 to-purple-900;
 }
 
+
 .gradient-blue-shadow {
   @apply bg-gradient-to-t from-white to-violet-950;
 }
