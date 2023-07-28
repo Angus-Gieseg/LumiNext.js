@@ -67,6 +67,34 @@ export const Form = () => {
           />
         </div>
       </div>
+      <hr></hr>
+      {/* Footer Content */}
+      <hr className="mt-8 border-3 border-amber-500 drop-shadow-xl"></hr>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <img
+              src="/Assets/NBW Logo ReversedAsset 21.png"
+              alt="logo"
+              className="w-full h-16 object-contain"
+            />
+            <p className="text-sm text-slate-800 font-semibold">
+              &copy; 2023 - All Rights Reserved
+            </p>
+          </div>
+          <div className="flex flex-col justify-between items-left space-x-4">
+            <h3 className="text-base text-slate-800 font-semibold">
+              Contact Info
+            </h3>
+            <div className="flex flex-col justify-between items-left space-y-2">
+              <p className="text-sm text-slate-800 font-medium">
+                angus@notbadwebsites.com
+              </p>
+              <p className="text-sm text-slate-800 font-medium">0220123254</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }

@@ -23,7 +23,7 @@ const FeatureCard = ({ imgSrc, heading, text, features }) => {
         <ul className="list-none mt-4">
           {features.map((feature, index) => (
             <li key={index} className="flex items-center space-x-2">
-              <img src="Assets/tick.svg" alt="tick" className="w-4 h-4" />
+              <img src="/Icons/tick.svg" alt="tick" className="w-4 h-4" />
               <p className="text-sm">{feature}</p>
             </li>
           ))}

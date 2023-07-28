@@ -5,24 +5,27 @@ const PartnerShowcase = () => {
   const partners = [
     {
       name: 'Greenwood',
-      description: 'This is Partner 1',
-      image: '/Assets/james_bradnew-scaled.jpeg',
+      description:
+        'For this client we were engaged to build a website from scratch. We were able to deliver a website that was modern and a great asset to generate new leads. We were additionally engaged to modernise their admins process by replacing their spreadsheets to a cloud solution that meant there was no double handling of client information. ',
+      image: '/Assets/GreenwoodShedsWebsiteImage.png',
       logo: '/Assets/Greenwood sheds logoAsset 20@4x-8.png',
-      link: 'www.greenwoodshedsinfo.co.nz',
+      link: 'https://greenwoodsheds.netlify.app/',
     },
     {
       name: 'Sinsulation',
-      description: 'This is Partner 2',
-      image: '/Assets/pexels-fauxels-3184465.jpg',
+      description:
+        'For this client we were engaged to takeover their website design and optimise their SEO. Additionally handle their Google Ads. Through the experience we were able to increase their website traffic by over 900%',
+      image: '/Assets/james_bradnew-scaled.jpeg',
       logo: '/Assets/Sinsulation logoAsset 19@4x-8.png',
-      link: 'www.greenwoodshedsinfo.co.nz',
+      link: 'https://sinsulation.co.nz/',
     },
     {
-      name: 'Sinsulation',
-      description: 'This is Partner 2',
-      image: '/Assets/pexels-fauxels-3184465.jpg',
-      logo: '/Assets/Sinsulation logoAsset 19@4x-8.png',
-      link: 'www.greenwoodshedsinfo.co.nz',
+      name: 'University Of Canterbury Chaplains',
+      description:
+        'The University of Canterbury Chaplains needed a new website to showcase their services and events. We were able to deliver a website that was modern and easy to navigate.',
+      image: '/Assets/Chaplains UC website.png',
+      logo: '/Assets/ChaplainsLogo.png',
+      link: 'https://ucchaplains.netlify.app/',
     },
     // add more partners here...
   ]
@@ -30,7 +33,7 @@ const PartnerShowcase = () => {
   return (
     <section className="pt-20 pb-20 px-8 sm:px-0">
       <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-8 text-center">
-        Our Partners
+        Recent Clients
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-10 px-4 sm:px-8">
         {partners.map((partner, index) => (
