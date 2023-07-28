@@ -11,7 +11,7 @@ const Home = () => {
       <Introduction />
       <PartnerShowcase />
       <WebDesignProcess />
-      {/* <Form /> */}
+      <Form />
     </>
   )
 }
