@@ -8,7 +8,7 @@ const FeatureLayout = () => {
       <h1 className="head_text text-6xl font-bold text-center orange-purple_gradient">
         OUR CORE SERVICES
       </h1>
-      <div className="grid grid-cols-3 gap-10 m-8 pb-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 m-8 pb-8">
         <FeatureCard
           imgSrc="Assets/Website builder iconAsset 16@4x-8.png"
           heading="Web Development"

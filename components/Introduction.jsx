@@ -9,7 +9,7 @@ const Introduction = () => {
       sm:space-x-10 ml-8"
       id="about"
     >
-      <div className="sm:w-1/2">
+      <div className="sm:w-1/2 order-2 sm:order-1">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-8">
           Welcome to Not Bad Websites
         </h2>
@@ -36,8 +36,7 @@ const Introduction = () => {
           digital dreams take flight.
         </p>
       </div>
-
-      <div className="flex justify-center items-center sm:w-1/2">
+      <div className="flex justify-center items-center sm:w-1/2 order-1 sm:order-2">
         <img
           src="/Assets/ProfilePicture.jpg"
           alt="Angus"

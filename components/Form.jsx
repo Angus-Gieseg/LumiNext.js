@@ -36,7 +36,7 @@ export const Form = () => {
               </option>
               <option value="General Consultation">General Consulation</option>
             </select>
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <input
                 type="checkbox"
                 id="pricing"
@@ -50,7 +50,7 @@ export const Form = () => {
               >
                 I would like to recieve a pricing sheet
               </label>
-            </div>
+            </div> */}
             <button
               type="submit"
               className="mt-4 py-2 px-4 bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700"

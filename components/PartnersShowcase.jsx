@@ -64,11 +64,11 @@ const PartnerShowcase = () => {
                 Visit Website
               </a>
             </div>
-            <div className="w-full sm:w-1/2">
+            <div className="w-full sm:w-fu">
               <img
                 src={partner.image}
                 alt={partner.name}
-                className="w-full min-h-[300px] object-cover rounded-md"
+                className="w-full md:min-h-[300px] object-cover rounded-md"
               />
             </div>
           </div>

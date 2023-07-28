@@ -1,4 +1,3 @@
-import Feed from '@components/Feed'
 import FeatureLayout from '@components/FeatureLayout'
 import Introduction from '@components/Introduction'
 import PartnerShowcase from '@components/PartnersShowcase'

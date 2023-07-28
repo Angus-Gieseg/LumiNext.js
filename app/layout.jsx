@@ -1,7 +1,7 @@
 import '@styles/globals.css'
 // import { Children } from 'react'
 import { Navbar } from '@components/Navbar'
-import { NewHero } from '@components/NewHero'
+import { Hero } from '@components/Hero'
 export const metadata = {
   title: 'Not Bad Websites',
   description: 'Not Bad Website development services',
@@ -17,7 +17,7 @@ const RootLayout = ({ children }) => {
         <main className="app">
           <Navbar />
 
-          <NewHero />
+          <Hero />
           <div className="gradient-blue-shadow w-full h-10"></div>
           {children}
           <div className="hero-container">{/* <Hero /> */}</div>

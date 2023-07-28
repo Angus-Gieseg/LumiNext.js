@@ -22,8 +22,15 @@ export const Navbar = () => {
         />
       </Link>
       <div className="flex gap-8 flex-center text-slate-200 font-medium">
-        <button onClick={() => scrollToSection('about')}>About Us</button>
-        <button onClick={() => scrollToSection('contact')}>Contact Us</button>
+        <button className="sm:text-sm" onClick={() => scrollToSection('about')}>
+          About
+        </button>
+        <button
+          className="sm:text-sm"
+          onClick={() => scrollToSection('contact')}
+        >
+          Contact
+        </button>
       </div>
     </nav>
   )
