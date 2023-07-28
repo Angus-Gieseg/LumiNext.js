@@ -1,5 +1,6 @@
-'use strict'
+'use client'
 import React from 'react'
+import Image from 'next/image'
 
 const Introduction = () => {
   return (
@@ -36,11 +37,14 @@ const Introduction = () => {
           digital dreams take flight.
         </p>
       </div>
-      <div className="flex justify-center items-center sm:w-1/2 order-1 sm:order-2">
-        <img
+      <div className="flex justify-center items-center sm:w-1/2 order-1 sm:order-2 w-1/2 h-1/2">
+        <Image
           src="/Assets/ProfilePicture.jpg"
           alt="Angus"
-          className="w-full sm:w-1/2 rounded-lg shadow-lg"
+          height={400}
+          width={400}
+          objectFit="contain"
+          className="rounded-lg shadow-lg border-4 border-purple-400 mb-4"
         />
       </div>
     </section>

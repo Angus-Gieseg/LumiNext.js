@@ -1,5 +1,7 @@
 'use strict'
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const PartnerShowcase = () => {
   const partners = [
@@ -44,10 +46,12 @@ const PartnerShowcase = () => {
             <div className="flex flex-col justify-between w-full sm:w-1/2 space-y-5">
               <div>
                 <div className="w-24 h-24 mb-3">
-                  <img
+                  <Image
                     src={partner.logo}
                     alt={partner.name}
-                    className="w-full h-full object-contain"
+                    height={100}
+                    width={300}
+                    objectFit="contain"
                   />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2 text-center sm:text-left">
@@ -59,16 +63,19 @@ const PartnerShowcase = () => {
               </div>
               <a
                 href={partner.link}
-                className="text-blue-600 hover:text-blue-800 bl w-full text-center sm:text-left"
+                className="text-blue-600 hover:text-blue-800 w-full text-center sm:text-left"
               >
                 Visit Website
               </a>
             </div>
-            <div className="w-full sm:w-fu">
-              <img
+            <div className="w-full sm:w-full">
+              <Image
                 src={partner.image}
                 alt={partner.name}
-                className="w-full md:min-h-[300px] object-cover rounded-md"
+                layout="responsive"
+                width={1000}
+                height={500}
+                className="rounded-md"
               />
             </div>
           </div>

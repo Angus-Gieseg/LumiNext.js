@@ -1,94 +1,104 @@
 'use client'
 import React from 'react'
 
-const WebDesignProcess = () => {
+// Card Component
+// Card Component
+const Card = ({ title, subtitle, bulletPoints }) => {
+  const [showMore, setShowMore] = React.useState(false)
   return (
-    <div className="bg-gray-100 p-8">
-      <h2 className="text-2xl font-bold mb-4">What to Expect</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {/* Row 1 */}
-        <div className="shadow-md rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div className="bg-white p-4 rounded-md">
-            <h3 className="text-lg font-semibold mb-2">
-              1. Initial Discussion
-            </h3>
-            <p className="text-gray-600">Phone Call & Pricing</p>
-            <ul className="list-disc list-inside mt-2">
-              <li>Discuss website requirements</li>
-              <li>Gather important details</li>
-              <li>Provide transparent pricing</li>
-            </ul>
-          </div>
+    <div className="card shadow-md rounded-lg relative overflow-hidden bg-white">
+      <div className="front p-4 rounded-md w-full">
+        <h3 className="text-lg font-semibold mb-2">{title}</h3>
+        <p className="text-gray-600">{subtitle}</p>
+      </div>
+      {showMore && (
+        <div className="back bg-white p-4 rounded-md">
+          <ul className="list-disc list-inside mt-2">
+            {bulletPoints.map((point, index) => (
+              <li key={index}>{point}</li>
+            ))}
+          </ul>
         </div>
-        <div className="shadow-md rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div className="bg-white p-4 rounded-md">
-            <h3 className="text-lg font-semibold mb-2">
-              2. Building Connections
-            </h3>
-            <p className="text-gray-600">Coffee & Chat</p>
-            <ul className="list-disc list-inside mt-2">
-              <li>Meet over coffee</li>
-              <li>Discuss vision, goals, preferences</li>
-              <li>Understand brand deeply</li>
-            </ul>
-          </div>
-        </div>
+      )}
+      <button
+        className="mt-4 bg-slate-200 text-blue-500 font-semibold rounded-md px-4 py-2 m-3"
+        onClick={() => setShowMore(!showMore)}
+      >
+        {showMore ? 'See Less' : 'See More'}
+      </button>
+    </div>
+  )
+}
 
-        <div className="shadow-md rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div className="bg-white p-4 rounded-md shadow-md">
-            <h3 className="text-lg font-semibold mb-2">3. Creative Planning</h3>
-            <p className="text-gray-600">Strategy & Ideation</p>
-            <ul className="list-disc list-inside mt-2">
-              <li>Understand your objectives</li>
-              <li>Brainstorm creative ideas</li>
-              <li>Develop tailored strategy</li>
-            </ul>
-          </div>
-        </div>
+const WebDesignProcess = () => {
+  // Define data for each card
+  const cardData = [
+    {
+      title: '1. Initial Discussion',
+      subtitle: 'Phone Call & Pricing',
+      bulletPoints: [
+        'Discuss website requirements',
+        'Gather important details',
+        'Provide transparent pricing',
+      ],
+    },
+    {
+      title: '2. Building Connections',
+      subtitle: 'Coffee & Chat',
+      bulletPoints: [
+        'Meet over coffee',
+        'Discuss vision, goals, preferences',
+        'Understand brand deeply',
+      ],
+    },
+    {
+      title: '3. Creative Planning',
+      subtitle: 'Strategy & Ideation',
+      bulletPoints: [
+        'Understand your objectives',
+        'Brainstorm creative ideas',
+        'Develop tailored strategy',
+      ],
+    },
+    {
+      title: '4. Visualizing the Design',
+      subtitle: 'Design Mockups',
+      bulletPoints: [
+        'Present captivating mockups',
+        'Align with brand identity',
+        'Gather feedback for refinement',
+      ],
+    },
+    {
+      title: '5. Bringing it to Life',
+      subtitle: 'Development',
+      bulletPoints: [
+        'Skilled developers create a user-friendly website',
+        'Keep you informed of progress',
+      ],
+    },
+    {
+      title: '6. Final Review & Launch',
+      subtitle: 'Review & Launch',
+      bulletPoints: [
+        'Thorough review for performance',
+        'Get feedback for final touches',
+        'Celebrate website launch',
+      ],
+    },
+  ]
 
-        {/* Row 2 */}
-        <div className="shadow-md rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div className="bg-white p-4 rounded-md shadow-md">
-            <h3 className="text-lg font-semibold mb-2">
-              4. Visualizing the Design
-            </h3>
-            <p className="text-gray-600">Design Mockups</p>
-            <ul className="list-disc list-inside mt-2">
-              <li>Present captivating mockups</li>
-              <li>Align with brand identity</li>
-              <li>Gather feedback for refinement</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="shadow-md rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div className="bg-white p-4 rounded-md shadow-md">
-            <h3 className="text-lg font-semibold mb-2">
-              5. Bringing it to Life
-            </h3>
-            <p className="text-gray-600">Development</p>
-            <ul className="list-disc list-inside mt-2">
-              <li>Skilled developers create a user-friendly website</li>
-              <li>Keep you informed of progress</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="shadow-md rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div className="bg-white p-4 rounded-md shadow-md">
-            <h3 className="text-lg font-semibold mb-2">
-              6. Final Review & Launch
-            </h3>
-            <p className="text-gray-600">Review & Launch</p>
-            <ul className="list-disc list-inside mt-2">
-              <li>Thorough review for performance</li>
-              <li>Get feedback for final touches</li>
-              <li>Celebrate website launch</li>
-            </ul>
-          </div>
+  return (
+    <section id="process" className="w-full py-20 px-4 sm:px-0">
+      <div className=" px-8">
+        <h2 className="text-2xl font-bold mb-4">What to Expect</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {cardData.map((data, index) => (
+            <Card key={index} {...data} />
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

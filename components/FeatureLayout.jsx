@@ -10,7 +10,7 @@ const FeatureLayout = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 m-8 pb-8">
         <FeatureCard
-          imgSrc="Assets/Website builder iconAsset 16@4x-8.png"
+          imgSrc="/Assets/Website builder iconAsset 16@4x-8.png"
           heading="Web Development"
           text="We build websites that are fast, secure, and easy to manage."
           features={[
@@ -21,7 +21,7 @@ const FeatureLayout = () => {
           ]}
         />
         <FeatureCard
-          imgSrc="Assets/CRM icon imageAsset 17@4x-8.png"
+          imgSrc="/Assets/CRM icon imageAsset 17@4x-8.png"
           heading="CRM and Email Automation"
           text="We help you automate your sales and marketing processes."
           features={[
@@ -31,7 +31,7 @@ const FeatureLayout = () => {
           ]}
         />
         <FeatureCard
-          imgSrc="Assets/DigitalAdvisory iconAsset 18@4x-8.png"
+          imgSrc="/Assets/DigitalAdvisory iconAsset 18@4x-8.png"
           heading="Custom Applications"
           text="We help you make custom applications for our business needs"
           features={[
