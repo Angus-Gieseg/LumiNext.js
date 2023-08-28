@@ -24,13 +24,7 @@ const Card = ({ title, subtitle, bulletPoints, source }) => {
             See More
           </button>
           <div className="absolute right-3 top-5 h-1/4 w-1/4 opacity-25">
-            <Image
-              src={source}
-              alt={subtitle}
-              height={200}
-              width={200}
-              objectFit="contain"
-            />
+            <Image src={source} alt={subtitle} height={200} width={200} />
           </div>
         </div>
       </div>

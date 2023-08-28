@@ -43,7 +43,6 @@ const Introduction = () => {
           alt="Angus"
           height={400}
           width={400}
-          objectFit="contain"
           className="rounded-lg shadow-lg border-4 border-purple-400 mb-4"
         />
       </div>

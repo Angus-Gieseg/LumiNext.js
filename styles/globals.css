@@ -88,8 +88,8 @@ h1{
   left: -5%;
   background-size: contain; 
   background-position: bottom;
-  height: 18rem;
-  width: 18rem;
+  height: 35rem;
+  width: 35rem;
   z-index: 1;
 }
 
@@ -99,8 +99,8 @@ h1{
   left: -25%;
   background-size: contain; 
   background-position: bottom;
-  height: 50rem;
-  width: 50rem;
+  height: 115rem;
+  width: 115rem;
   z-index: 0;
 }
 
@@ -110,8 +110,8 @@ h1{
   left: 25%;
   background-size: contain; 
   background-position: bottom;
-  height: 8rem;
-  width: 8rem;
+  height: 15rem;
+  width: 15rem;
   z-index: 2;
 }
 
@@ -121,8 +121,8 @@ h1{
   right: 10%;
   background-size: contain; 
   background-position: bottom;
-  height: 6rem;
-  width: 6rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 .cloud2 {
@@ -131,8 +131,8 @@ h1{
   right: 20%;
   background-size: contain; 
   background-position: bottom;
-  height: 6rem;
-  width: 6rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 .developer {
@@ -141,8 +141,8 @@ h1{
   right: 0;
   background-size: contain; 
   background-position: bottom;
-  height: 15rem;
-  width: 15rem;
+  height: 18rem;
+  width: 18rem;
   z-index: 0;
 }
 
@@ -152,9 +152,60 @@ h1{
   right: 10%;
   background-size: contain; 
   background-position: bottom;
-  height: 6rem;
-  width: 6rem;
+  height: 10rem;
+  width: 10rem;
 }
+@media screen and (max-width: 1280px){
+  .mountain1 {
+    bottom: -5%;
+    left: -5%;
+    height: 18rem;
+    width: 18rem;
+  }
+  
+  .mountain2 {
+    bottom: -5%;
+    left: -25%;
+    height: 50rem;
+    width: 50rem;
+  }
+  
+  .mountain3 {
+    bottom: -5%;
+    left: 25%;
+    height: 8rem;
+    width: 8rem;
+  }
+  
+  .cloud1 {
+    bottom: 30%;
+    right: 10%;
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .cloud2 {
+    bottom: 20%;
+    right: 20%;
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .developer {
+    bottom: -7%;
+    right: 0;
+    height: 15rem;
+    width: 15rem;
+  }
+  
+  .cloud3 {
+    bottom: 75%;
+    right: 10%;
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
 
 @media screen and (max-width: 720px) {
   .mountain1 {

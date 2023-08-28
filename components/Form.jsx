@@ -65,7 +65,6 @@ export const Form = () => {
           <Image
             src="/Assets/pexels-fauxels-3184465.jpg"
             alt="Contact Form"
-            layout="responsive"
             width={300}
             height={300}
             className="mx-auto sm:w-4/4 h-auto rounded-md shadow-md border-4 border-orange-200"
@@ -79,7 +78,6 @@ export const Form = () => {
             <Image
               src="/Assets/NBWLogoReversedAsset21.png"
               alt="Contact Form"
-              layout="responsive"
               width={300}
               height={300}
               className="mx-auto sm:w-4/4 h-auto"

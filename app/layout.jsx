@@ -19,7 +19,7 @@ const RootLayout = ({ children }) => {
 
           <Hero />
           <div className="gradient-blue-shadow w-full h-10"></div>
-          {children}
+          <div className="max-w-6xl">{children}</div>
         </main>
       </body>
     </html>

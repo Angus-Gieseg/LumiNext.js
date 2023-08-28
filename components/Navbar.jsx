@@ -17,7 +17,6 @@ export const Navbar = () => {
           alt="Not Bad Websites Logo"
           width={250}
           height={250}
-          layout="intrinsic"
         />
       </a>
       <div className="flex gap-8 flex-center text-slate-200 font-medium">

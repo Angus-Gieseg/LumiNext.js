@@ -50,7 +50,6 @@ const PartnerShowcase = () => {
                     alt={partner.name}
                     height={100}
                     width={300}
-                    objectFit="contain"
                   />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2 text-center sm:text-left">
@@ -71,7 +70,6 @@ const PartnerShowcase = () => {
               <Image
                 src={partner.image}
                 alt={partner.name}
-                layout="responsive"
                 width={1000}
                 height={500}
                 className="rounded-md"
