@@ -15,25 +15,24 @@ const Introduction = () => {
           Welcome to Not Bad Websites
         </h2>
         <p className="text-xl text-gray-500 sm:text-2xl mb-6">
-          We are a digital consultancy rooted in creativity and innovation,
-          based in Christchurch, New Zealand. We specialize in helping
-          businesses bloom in the digital space.
+          I am a digital consultant, based in Christchurch, New Zealand. I
+          specialize in helping businesses bloom in the digital space.
         </p>
         <p className="text-base text-gray-500 sm:text-lg mb-6">
-          Our journey began with Angus, our founder, who transitioned from
+          My journey began my software journey after transitioned from
           structural engineering to software development after initiating a B2B
-          Tourism Tech Startup. Angus brings to the table a unique blend of
-          technical skills, innovation, and entrepreneurship.
+          Tourism Tech Startup. I bring a unique blend of technical skills,
+          innovation, and entrepreneurship.
         </p>
         <p className="text-base text-gray-500 sm:text-lg mb-6">
-          We recognize that your website is not just a business tool, it's a
-          manifestation of your vision and passion. We dive deep into
+          I recognize that your website is&apos;t just a business tool,
+          it&apos;s a manifestation of your vision and passion. I dive deep into
           understanding your objectives and brand values, creating a digital
           presence that authentically represents you.
         </p>
         <p className="text-base text-gray-500 sm:text-lg">
-          At Not Bad Websites, we merge creativity and strategy to create
-          captivating digital experiences. Welcome aboard; let's make your
+          At Not Bad Websites, I aim to merge creativity and strategy to create
+          captivating digital experiences. Welcome aboard; let&apos;s make your
           digital dreams take flight.
         </p>
       </div>
