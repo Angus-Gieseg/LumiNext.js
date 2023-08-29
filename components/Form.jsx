@@ -63,7 +63,7 @@ export const Form = () => {
         </div>
         <div className="hidden sm:block sm:w-3/5 justify-center">
           <Image
-            src="/Assets/pexels-fauxels-3184465.jpg"
+            src="/Assets/pexels-fauxels-3184465.webp"
             alt="Contact Form"
             width={300}
             height={300}
@@ -76,7 +76,7 @@ export const Form = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <Image
-              src="/Assets/NBWLogoReversedAsset21.png"
+              src="/Assets/NBWLogoReversedAsset21.webp"
               alt="Contact Form"
               width={300}
               height={300}

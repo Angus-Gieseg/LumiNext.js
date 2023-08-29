@@ -8,24 +8,24 @@ const PartnerShowcase = () => {
       name: 'Greenwood',
       description:
         'For this client we were engaged to build a website from scratch. We were able to deliver a website that was modern and a great asset to generate new leads. We were additionally engaged to modernise their admins process by replacing their spreadsheets to a cloud solution that meant there was no double handling of client information. ',
-      image: '/Assets/GreenwoodShedsWebsiteImage.png',
-      logo: '/Assets/Greenwood sheds logoAsset 20@4x-8.png',
+      image: '/Assets/GreenwoodShedsWebsiteImage.webp',
+      logo: '/Assets/Greenwood sheds logoAsset 20@4x-8.webp',
       link: 'https://greenwoodsheds.netlify.app/',
     },
     {
       name: 'Sinsulation',
       description:
         'For this client we were engaged to takeover their website design and optimise their SEO. Additionally handle their Google Ads. Through the experience we were able to increase their website traffic by over 900%',
-      image: '/Assets/james_bradnew-scaled.jpeg',
-      logo: '/Assets/Sinsulation logoAsset 19@4x-8.png',
+      image: '/Assets/james_bradnew-scaled.webp',
+      logo: '/Assets/Sinsulation logoAsset 19@4x-8.webp',
       link: 'https://sinsulation.co.nz/',
     },
     {
       name: 'University Of Canterbury Chaplains',
       description:
         'The University of Canterbury Chaplains needed a new website to showcase their services and events. We were able to deliver a website that was modern and easy to navigate.',
-      image: '/Assets/Chaplains UC website.png',
-      logo: '/Assets/ChaplainsLogo.png',
+      image: '/Assets/Chaplains UC website.webp',
+      logo: '/Assets/ChaplainsLogo.webp',
       link: 'https://ucchaplains.netlify.app/',
     },
     // add more partners here...

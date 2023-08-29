@@ -13,7 +13,7 @@ export const Navbar = () => {
     <nav className="shadow-lg flex-between w-full mb-8 pr-8 fixed top-0 left-0 right-0 z-20 bg-purple-700">
       <a className="flex flex-center">
         <Image
-          src="/Assets/NotBadWebsitesLogoOrangeAsset23@4x-8.png"
+          src="/Assets/NotBadWebsitesLogo.webp"
           alt="Not Bad Websites Logo"
           width={250}
           height={250}

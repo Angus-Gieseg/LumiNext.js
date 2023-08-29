@@ -38,7 +38,7 @@ const Introduction = () => {
       </div>
       <div className="flex justify-center items-center sm:w-1/2 order-1 sm:order-2 w-1/2 h-1/2">
         <Image
-          src="/Assets/ProfilePicture.jpg"
+          src="/Assets/ProfilePicture.webp"
           alt="Angus"
           height={400}
           width={400}
