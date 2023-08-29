@@ -334,12 +334,6 @@ h1{
   @apply bg-gradient-to-t from-amber-500 to-purple-800;
 }
 
-
-
-.blue_gradient {
-  @apply bg-gradient-to-r from-blue-600 to-cyan-600;
-}
-
 .desc {
   @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
 }
