@@ -53,7 +53,7 @@ export const Hero = () => {
         }}
       >
         <div className="p-2 md:ml-40 sm:ml-8">
-          <h1 className="head_text text-white font-bold xl:text-7xl 2xl:text-9xl w-2/3">
+          <h1 className="head_text text-white font-bold xl:text-7xl 2xl:text-9xl w-4/5">
             SIMPLE WEB DEVELOPMENT, ROOTED IN CREATIVITY
           </h1>
           <p className="text-white xl:text-lg 2xl:text-3xl">

@@ -96,7 +96,7 @@ h1{
 }
 
 .mountain2 {
-  background-image: url('/Assets/BN christchurch websitesAsset 13@4x-8.webp');
+  background-image: url('/Assets/BNchristchurchwebsitesAsset13@4x-8.webp');
   bottom: -5%;
   left: -25%;
   background-size: contain; 
@@ -157,7 +157,7 @@ h1{
   height: 10rem;
   width: 10rem;
 }
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1600px){
   .mountain1 {
     bottom: -5%;
     left: -5%;
@@ -167,7 +167,7 @@ h1{
   
   .mountain2 {
     bottom: -5%;
-    left: -25%;
+    left: -20%;
     height: 50rem;
     width: 50rem;
   }
