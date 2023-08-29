@@ -85,7 +85,7 @@ h1{
 
 /* Parralax Effects */
 .mountain1 {
-  background-image: url('/Assets/SM website developmentAsset 14@4x-8.png');
+  background-image: url('/Assets/SM website developmentAsset 14@4x-8.webp');
   bottom: -5%;
   left: -5%;
   background-size: contain; 
@@ -96,7 +96,7 @@ h1{
 }
 
 .mountain2 {
-  background-image: url('/Assets/BN christchurch websitesAsset 13@4x-8.png');
+  background-image: url('/Assets/BN christchurch websitesAsset 13@4x-8.webp');
   bottom: -5%;
   left: -25%;
   background-size: contain; 
@@ -107,7 +107,7 @@ h1{
 }
 
 .mountain3 {
-  background-image: url('/Assets/SM websitesAsset 12@4x-8.png');
+  background-image: url('/Assets/SM websitesAsset 12@4x-8.webp');
   bottom: -5%;
   left: 25%;
   background-size: contain; 
@@ -118,7 +118,7 @@ h1{
 }
 
 .cloud1 {
-  background-image: url('/Assets/CloudAsset 10@4x-8.png');
+  background-image: url('/Assets/CloudAsset 10@4x-8.webp');
   bottom: 30%;
   right: 10%;
   background-size: contain; 
@@ -128,7 +128,7 @@ h1{
 }
 
 .cloud2 {
-  background-image: url('/Assets/CloudAsset 10@4x-8.png');
+  background-image: url('/Assets/CloudAsset 10@4x-8.webp');
   bottom: 20%;
   right: 20%;
   background-size: contain; 
@@ -138,7 +138,7 @@ h1{
 }
 
 .developer {
-  background-image: url('/Assets/CloudAsset 11@4x-8.png');
+  background-image: url('/Assets/CloudAsset 11@4x-8.webp');
   bottom: -7%;
   right: 0;
   background-size: contain; 
@@ -149,7 +149,7 @@ h1{
 }
 
 .cloud3 {
-  background-image: url('/Assets/CloudAsset 10@4x-8.png');
+  background-image: url('/Assets/CloudAsset 10@4x-8.webp');
   bottom: 75%;
   right: 10%;
   background-size: contain; 
