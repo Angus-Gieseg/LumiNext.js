@@ -7,6 +7,8 @@
 /* 
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
+
+/* Styles */
 @font-face {
   font-family: "Modern_Age";
   src: url("/fonts/Modern Age.woff2") format("woff2");
