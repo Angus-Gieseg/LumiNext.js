@@ -334,9 +334,7 @@ h1{
   @apply bg-gradient-to-t from-amber-500 to-purple-800;
 }
 
-.orange-purple_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-purple-400 to-purple-800 bg-clip-text text-transparent;
-}
+
 
 .blue_gradient {
   @apply bg-gradient-to-r from-blue-600 to-cyan-600;
