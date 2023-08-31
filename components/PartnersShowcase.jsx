@@ -10,7 +10,7 @@ const PartnerShowcase = () => {
         'For this client we were engaged to build a website from scratch. We were able to deliver a website that was modern and a great asset to generate new leads. We were additionally engaged to modernise their admins process by replacing their spreadsheets to a cloud solution that meant there was no double handling of client information. ',
       image: '/Assets/GreenwoodShedsWebsiteImage.webp',
       logo: '/Assets/Greenwoodshedslogo.webp',
-      link: 'https://greenwoodsheds.netlify.app/',
+      link: 'https://lively-boba-ca489d.netlify.app/',
     },
     {
       name: 'Sinsulation',
@@ -26,7 +26,7 @@ const PartnerShowcase = () => {
         'The University of Canterbury Chaplains needed a new website to showcase their services and events. We were able to deliver a website that was modern and easy to navigate.',
       image: '/Assets/ChaplainsUCwebsite.webp',
       logo: '/Assets/ChaplainsLogo.webp',
-      link: 'https://ucchaplains.netlify.app/',
+      link: 'https://chaplainsuc.netlify.app/',
     },
     // add more partners here...
   ]
