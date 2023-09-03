@@ -10,7 +10,12 @@ export const Form = () => {
           <h2 className="text-3xl font-extrabold text-slate-800 sm:text-4xl mb-8 mt-8">
             Contact Us
           </h2>
-          <form className="grid gap-4 w-1/2 " data-netlify="true">
+          <form
+            className="grid gap-4 w-1/2 "
+            data-netlify="true"
+            method="POST"
+            name="contact"
+          >
             {' '}
             <input
               className="p-2 border border-purple-600 rounded-md"
