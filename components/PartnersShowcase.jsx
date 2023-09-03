@@ -1,7 +1,7 @@
 'use strict'
 import React from 'react'
 import Image from 'next/image'
-
+// yes
 const PartnerShowcase = () => {
   const partners = [
     {
