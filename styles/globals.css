@@ -42,13 +42,6 @@ h1{
   object-fit: cover;
 }
 
-@media only screen and (max-width: 600px) {
-  .mountain1, .mountain2, .mountain3, .cloud1, .cloud2, .cloud3, .developer {
-    transform: scale(0.2);
-  }
-}
-
-
 
 .main {
   width: 100vw;
@@ -90,19 +83,19 @@ h1{
   left: -5%;
   background-size: contain; 
   background-position: bottom;
-  height: 30rem;
-  width: 30rem;
+  height: 10rem;
+  width: 10rem;
   z-index: 1;
 }
 
 .mountain2 {
   background-image: url('/Assets/BNchristchurchwebsitesAsset13@4x-8.webp');
   bottom: -5%;
-  left: -25%;
+  left: -50%;
   background-size: contain; 
   background-position: bottom;
-  height: 115rem;
-  width: 115rem;
+  height: 25rem;
+  width: 25rem;
   z-index: 0;
 }
 
@@ -112,8 +105,8 @@ h1{
   left: 25%;
   background-size: contain; 
   background-position: bottom;
-  height: 15rem;
-  width: 15rem;
+  height: 7.5rem;
+  width: 7.5rem;
   z-index: 2;
 }
 
@@ -123,8 +116,8 @@ h1{
   right: 10%;
   background-size: contain; 
   background-position: bottom;
-  height: 10rem;
-  width: 10rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .cloud2 {
@@ -133,18 +126,18 @@ h1{
   right: 20%;
   background-size: contain; 
   background-position: bottom;
-  height: 10rem;
-  width: 10rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .developer {
   background-image: url('/Assets/CloudAsset 11@4x-8.webp');
-  bottom: -7%;
-  right: 0;
+  bottom: -5%;
+  right: -12%;
   background-size: contain; 
   background-position: bottom;
-  height: 18rem;
-  width: 18rem;
+  height: 9rem;
+  width: 9rem;
   z-index: 0;
 }
 
@@ -154,22 +147,22 @@ h1{
   right: 10%;
   background-size: contain; 
   background-position: bottom;
-  height: 10rem;
-  width: 10rem;
+  height: 9rem;
+  width: 9rem;
 }
-@media screen and (max-width: 1600px){
+@media only screen and (min-width: 320px){
   .mountain1 {
     bottom: -5%;
-    left: -5%;
-    height: 18rem;
-    width: 18rem;
+    left: -10%;
+    height: 12rem;
+    width: 12rem;
   }
   
   .mountain2 {
     bottom: -5%;
-    left: -20%;
-    height: 50rem;
-    width: 50rem;
+    left: -38%;
+    height: 25rem;
+    width: 25rem;
   }
   
   .mountain3 {
@@ -194,10 +187,10 @@ h1{
   }
   
   .developer {
-    bottom: -7%;
-    right: 0;
-    height: 15rem;
-    width: 15rem;
+    bottom: -5%;
+    right: -10%;
+    height: 10rem;
+    width: 10rem;
   }
   
   .cloud3 {
@@ -209,17 +202,17 @@ h1{
 }
 
 
-@media screen and (max-width: 720px) {
+@media only screen and (min-width: 768px) {
   .mountain1 {
-    left: -10%;
-    height: 14rem;
-    width: 14rem;
+    left: 0%;
+    height: 20rem;
+    width: 20rem;
   }
   
   .mountain2 {
-    left: -50%;
-    height: 35rem;
-    width: 35rem;
+    left: -30%;
+    height: 50rem;
+    width: 50rem;
   }
   
   .mountain3 {
@@ -257,6 +250,105 @@ h1{
     width: 6rem;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .mountain1 {
+    left: 5%;
+    height: 30rem;
+    width: 14rem;
+  }
+  
+  .mountain2 {
+    left: -20%;
+    height: 60rem;
+    width: 60rem;
+  }
+  
+  .mountain3 {
+    left: 25%;
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .cloud1 {
+    bottom: 30%;
+    right: 10%;
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .cloud2 {
+    bottom: 20%;
+    right: 20%;
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .developer {
+    bottom: -5%;
+    right: 8%;
+    height: 10rem;
+    width: 10rem;
+    z-index: 5;
+  }
+  
+  .cloud3 {
+    bottom: 75%;
+    right: 10%;
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .mountain1 {
+    left: 0%;
+    height: 30rem;
+    width: 30rem;
+  }
+  
+  .mountain2 {
+    left: -15%;
+    height: 100rem;
+    width: 100rem;
+  }
+  
+  .mountain3 {
+    left: 25%;
+    height: 8rem;
+    width: 8rem;
+  }
+  
+  .cloud1 {
+    bottom: 30%;
+    right: 10%;
+    height: 12rem;
+    width: 12rem;
+  }
+  
+  .cloud2 {
+    bottom: 20%;
+    right: 20%;
+    height: 8rem;
+    width: 8rem;
+  }
+  
+  .developer {
+    bottom: -4%;
+    right: 10%;
+    height: 15rem;
+    width: 15rem;
+    z-index: 5;
+  }
+  
+  .cloud3 {
+    bottom: 75%;
+    right: 10%;
+    height: 10rem;
+    width: 10rem;
+  }
+}
+
 
 
 .gradient {

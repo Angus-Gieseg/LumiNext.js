@@ -52,13 +52,13 @@ export const Hero = () => {
           transform: scrollY.to((value) => `translateY(${value * 1.2}px)`),
         }}
       >
-        <div className="p-2 md:ml-40 sm:ml-8">
-          <h1 className="head_text text-white font-bold xl:text-7xl 2xl:text-9xl w-4/5">
-            SIMPLE WEB DEVELOPMENT, ROOTED IN CREATIVITY
+        <div className="p-2 lg:ml-40 sm:ml-8 md:ml-16">
+          <h1 className="head_text text-white font-bold xl:text-7xl 2xl:text-8xl 3xl:text-9xl w-4/5">
+            Unique Affortable Full Service Websites
           </h1>
           <p className="text-white xl:text-lg 2xl:text-3xl">
             We build branded websites, custom applications, and implement
-            software solutions to drive operational profitability.
+            software solutions to showcase your brand online.
           </p>
         </div>
       </animated.div>

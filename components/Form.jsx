@@ -85,7 +85,7 @@ export const Form = () => {
               alt="Contact Form"
               width={300}
               height={300}
-              className="mx-auto sm:w-4/4 h-auto"
+              className="mx-auto"
             />
             <p className="text-sm text-slate-800 font-semibold">
               &copy; 2023 - All Rights Reserved
