@@ -93,7 +93,7 @@ export const Form = () => {
           </div>
           <div className="flex flex-col justify-between items-left space-x-4">
             <h3 className="text-base text-slate-800 font-semibold">
-              Contact Info
+              Contact Info.
             </h3>
             <div className="flex flex-col justify-between items-left space-y-2">
               <p className="text-sm text-slate-800 font-medium">
