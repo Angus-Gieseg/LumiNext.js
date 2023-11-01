@@ -8,7 +8,7 @@ export const Form = () => {
       <div className="max-w-7xl flex flex-col-reverse sm:flex-row justify-between items-center sm:mx-8">
         <div className="w-full sm:w-1/2 justify-center">
           <h2 className="text-3xl font-extrabold text-slate-800 sm:text-4xl mb-8 mt-8">
-            Contact Us
+            Contact Us 
           </h2>
           <form
             className="grid gap-4 w-1/2 "
